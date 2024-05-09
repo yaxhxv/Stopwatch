@@ -48,8 +48,8 @@ useEffect(()=>{
 
         <h3>Time:{formatTime (timeInSec)}</h3>
         
-        <button onClick={startTime}>{timerOn ? 'start' : 'stop'}</button>
-        <button onClick={resetTime}>reset</button>
+        <button onClick={startTime}>{timerOn ? 'Stop' : 'Start'}</button>
+        <button onClick={resetTime}>Reset</button>
        </div> 
        </>
     )
