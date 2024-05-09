@@ -27,7 +27,7 @@ useEffect(()=>{
   if(timerOn){
     myTimer =  setInterval(() => {
         setTime((timeInSec) => timeInSec +1)
-    }, 100);
+    }, 1000);
   }else{
     clearInterval(myTimer)
   }
