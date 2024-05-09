@@ -41,9 +41,7 @@ useEffect(()=>{
 
     return (
         <>
-        <div className="border" style={{
-            border:"solid 1px black"
-        }}>
+        <div className="border" >
         <h1>Stopwatch</h1>
 
         <h3>Time:{formatTime (timeInSec)}</h3>
