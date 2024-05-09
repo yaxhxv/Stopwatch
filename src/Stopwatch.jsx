@@ -44,7 +44,7 @@ useEffect(()=>{
         <div className="border" >
         <h1>Stopwatch</h1>
 
-        <h3>Time:{formatTime (timeInSec)}</h3>
+        <h3>Time: {formatTime (timeInSec)}</h3>
         
         <button onClick={startTime}>{timerOn ? 'Stop' : 'Start'}</button>
         <button onClick={resetTime}>Reset</button>
